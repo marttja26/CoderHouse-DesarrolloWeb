@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'EB Garamond', serif;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+@import "base/variables";
+@import "base/extend";
+@import "components/header";
+@import "components/footer";
+@import "components/index";
+@import "components/nosotros";
+@import "components/contacto";
+@import "components/faq";
+@import "components/donde-encontrarnos";
+
+
+

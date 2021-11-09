@@ -1,0 +1,26 @@
+
+.faqSection {
+    width: 80%;
+    margin: auto;
+
+    &__title {
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 8% 0;
+    }
+
+    &__article {
+        margin-bottom: 8%;
+
+        h3 {
+            font-size: 1.2rem;
+            margin-bottom: 5%;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .faqSection {
+        width: 50%;
+    }
+}
